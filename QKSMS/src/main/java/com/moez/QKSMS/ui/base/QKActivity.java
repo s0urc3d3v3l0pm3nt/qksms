@@ -65,7 +65,7 @@ public class QKActivity extends ActionBarActivity {
             getToolbar().setNavigationIcon(navigationIcon);
         }
 
-        // Overflow icon
+        // Customize actionbar overflow icon with color
         colorOverflowButtonWhenReady(color);
 
         // Settings expansion
@@ -78,7 +78,7 @@ public class QKActivity extends ActionBarActivity {
             connected.setTextColor(color);
         }
 
-        // Other icons
+        // Apply color filter to other actionbar elements
         for (int i = 0; i < menu.size(); i++) {
             MenuItem menuItem = menu.getItem(i);
             Drawable newIcon = menuItem.getIcon();
